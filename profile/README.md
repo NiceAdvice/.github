@@ -56,24 +56,7 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 #### Linters:
 
 - Prettier
-- Eslint
-
-## Init Fly.io (Postgres) !!!Legacy knowledges. Supabase used for now.
-1. Install fly CLI on your machine: `brew install flyctl`  
-2. Login to fly via CLI: `fly auth login`
-3. [Add credit card](https://fly.io/dashboard/madashindeinai/billing)
-4. [Create postgres in Fly](https://fly.io/docs/postgres/getting-started/create-pg-cluster/): `fly postgres create`  
-**ATTENTION!!!!! It will give you creds for DB that will be shown only once. Save them in secure place!**      
-
-<img width="660" alt="Screenshot 2023-03-07 at 16 10 41" src="https://user-images.githubusercontent.com/50995397/223463416-de1792b5-c58a-4797-9d0d-04fdf0d8b0c5.png">  
-
-5. [Share app for external use (outside of Fly)](https://fly.io/docs/postgres/connecting/connecting-external/):  
-
-<img width="589" alt="Screenshot 2023-03-07 at 16 22 11" src="https://user-images.githubusercontent.com/50995397/223470174-4b8c9f51-00f7-4dca-b183-b2715c5b8cda.png">  
-
-<img width="639" alt="Screenshot 2023-03-07 at 16 22 37" src="https://user-images.githubusercontent.com/50995397/223470275-4cab3346-3daf-45a1-9f28-fc97abcd3584.png">  
-
-<img width="1108" alt="Screenshot 2023-03-07 at 16 27 53" src="https://user-images.githubusercontent.com/50995397/223470388-e7d7b239-5131-4945-9e3a-e991d015345d.png">  
+- Eslint  
 
 ## Update DB (do not do it without @madashindeinai approval)
 1. `npx prisma migrate dev` will run a migration according new schema.prisma. **Remember to sync all 3 apps and resolve issues if they occure**  To do this, replace all inner files in prisma folder and run `npx prisma generate`
@@ -163,4 +146,21 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.  
+
+## Init Fly.io (Postgres) !!!Legacy knowledges. Supabase used for now.
+1. Install fly CLI on your machine: `brew install flyctl`  
+2. Login to fly via CLI: `fly auth login`
+3. [Add credit card](https://fly.io/dashboard/madashindeinai/billing)
+4. [Create postgres in Fly](https://fly.io/docs/postgres/getting-started/create-pg-cluster/): `fly postgres create`  
+**ATTENTION!!!!! It will give you creds for DB that will be shown only once. Save them in secure place!**      
+
+<img width="660" alt="Screenshot 2023-03-07 at 16 10 41" src="https://user-images.githubusercontent.com/50995397/223463416-de1792b5-c58a-4797-9d0d-04fdf0d8b0c5.png">  
+
+5. [Share app for external use (outside of Fly)](https://fly.io/docs/postgres/connecting/connecting-external/):  
+
+<img width="589" alt="Screenshot 2023-03-07 at 16 22 11" src="https://user-images.githubusercontent.com/50995397/223470174-4b8c9f51-00f7-4dca-b183-b2715c5b8cda.png">  
+
+<img width="639" alt="Screenshot 2023-03-07 at 16 22 37" src="https://user-images.githubusercontent.com/50995397/223470275-4cab3346-3daf-45a1-9f28-fc97abcd3584.png">  
+
+<img width="1108" alt="Screenshot 2023-03-07 at 16 27 53" src="https://user-images.githubusercontent.com/50995397/223470388-e7d7b239-5131-4945-9e3a-e991d015345d.png">
