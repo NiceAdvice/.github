@@ -17,19 +17,15 @@
 - create .env files based on .env.example. Fill it with values. @madashindeinai can give you actual ones.
 
 ## Work flow:
-### Temp (current):  
-Work in master. Push when task is fully done.  
-_Commit example: TP-22 feat: {enter your commit message}_
 
-### Required (future):  
-_Commit example: TP-22 feat: {enter your commit message}_
+_Commit example: NA-22 feat: {enter your commit message}_
 
-1. _For each task, we make a separate branch from master._
-2. _Name the branch by the task name in JIRA Projects (for example TP-22)._
-3. _Drag the card in JIRA to the "in progress" column._
-4. _At the end of the task, open PR into master branch, assign Sergei or Antony and ask for review in Slack._
-5. _Drag the card in JIRA Projects to the "in review" column and assign John or Alex to review it._  
-6. _Merge PR. Drag task to 'done' column if John or Alex forgot to do this_
+1. _For each task, we make a separate branch from master (main)._
+2. _Name the branch by the task name in Github Projects (for example NA-22)._
+3. _Change card status in Github Project to the "in progress"._
+4. _At the end of the task, open PR into master branch, assign Sergei and ask for review._
+5. _Change card status to "in review" and assign @madashindeinai to review it._  
+6. _Merge PR. Change card status to 'done'._
 
 ### **Makefile**:
 
