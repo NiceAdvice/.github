@@ -24,8 +24,7 @@ _Commit example: NA-22 feat: {enter your commit message}_
 2. _Name the branch by the task name in Github Projects (for example NA-22)._
 3. _Change card status in Github Project to the "in progress"._
 4. _At the end of the task, open PR into master branch, assign Sergei and ask for review._
-5. _Change card status to "in review" and assign @madashindeinai to review it._  
-6. _Merge PR. Change card status to 'done'._
+5. _Merge PR. Change card status to 'done'._
 
 ### **Makefile**:
 
