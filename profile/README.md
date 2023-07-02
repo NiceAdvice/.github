@@ -69,6 +69,7 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 
 ## General info:
 
+0. All files and folders use only lowercase naming. If name consists from 2 words - devide them with "-".  
 1. Use only **PNPM** package manager for this project to avoid potential problems!
 2. Use a linter while coding!
 3. Deployments: [Landing](https://niceadvice.pl/), [app](app.niceadvice.pl), AdminApp - ask @madashindeinai
