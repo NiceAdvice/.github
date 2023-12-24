@@ -113,8 +113,9 @@ in json:
 13. As Tailwind uses mobile-first approach we are using same in our app.
 14. All text should be stored in json files in public folder.
 15. Project ruler length - `"editor.rulers": [80]`. 
-15. PostgreSQL stored on Supabase. CI/CD process provided by Vercel.
-16. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db  
+15. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
+16. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
+17. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
 
 
 ## Create T3 App Template basic description.
