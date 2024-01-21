@@ -6,7 +6,18 @@
 1. **T3 Stack** - combination of JS libs that provide you an opportunity to write 100% typed apps.  
 2. **client-app** - main application with all interractions.  
 3. **landing** - marketing plafrorm with blog.  
-4. **admin** - admin panel for modaration and user deleteon 
+4. **admin** - admin panel for modaration and user deleteon
+
+### List of 3-rd party services used for app:
+1. **Clerk** - auth solution.  
+2. **Pusher** - websocket for in-app realtime chat.  
+3. **Supabase** - DB hosting.  
+4. **Vercel** - CI/CD + hosting.  
+5. **Resend** - emails.  
+6. **Uploadthing** - bucket to upload user's images.  
+7. **GTM** - cookie management + user tracking.  
+8. **Google Search Console** - usage statistics + sitemaps management.  
+9. **ipinfo** - track user data during GDPR consent.  
 
 ## Installation. Use it for development purposes.
 
