@@ -4,10 +4,9 @@
 **<span style="color: red">Please read the materials below carefully before you begin.</span>**
 ### A bit of terminology to make it easier to understand what's going on:  
 1. **T3 Stack** - combination of JS libs that provide you an opportunity to write 100% typed apps.  
-2. **app** - main application with all interractions.  
+2. **client-app** - main application with all interractions.  
 3. **landing** - marketing plafrorm with blog.  
 4. **admin** - admin panel for modaration and user deleteon 
-5. // TBC
 
 ## Installation. Use it for development purposes.
 
