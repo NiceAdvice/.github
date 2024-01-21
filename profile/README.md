@@ -42,6 +42,9 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 
 
 ## Tech Stack:
+### Create T3 App Template basic description.
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`. 
+
 1. T3 Stack - https://create.t3.gg/
   - NextJS - https://nextjs.org/
   - React 18+ - https://reactjs.org/
@@ -77,10 +80,6 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 2. For each app in GTM we have created container with a tag. Each tag linked by Meajurement ID with separate data stream that confugured on GA side.
 3. [Very helpful article about that things. Probably will be needed to configure tags for PROD apps.](https://javascript.plainenglish.io/manage-cookie-consent-in-next-js-with-google-tag-manager-4d58818266ea)
 4. GTM NEXT GUIDE: https://morganfeeney.com/guides/how-to-integrate-google-tag-manager-with-nextjs
-
-## Create T3 App Template basic description.
-
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 ## General info:
 
