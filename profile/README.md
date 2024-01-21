@@ -78,6 +78,10 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 3. [Very helpful article about that things. Probably will be needed to configure tags for PROD apps.](https://javascript.plainenglish.io/manage-cookie-consent-in-next-js-with-google-tag-manager-4d58818266ea)
 4. GTM NEXT GUIDE: https://morganfeeney.com/guides/how-to-integrate-google-tag-manager-with-nextjs
 
+## Create T3 App Template basic description.
+
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+
 ## General info:
 
 0. All files and folders use only lowercase naming. If name consists from 2 words - devide them with "-".  
@@ -126,35 +130,6 @@ in json:
 15. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
 16. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
 17. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
-
-
-## Create T3 App Template basic description.
-
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
-
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.  
 
 ## Init Fly.io (Postgres) !!!Legacy knowledges. Supabase used for now.
 1. Install fly CLI on your machine: `brew install flyctl`  
