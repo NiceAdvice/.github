@@ -42,7 +42,6 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 
 
 ## Tech Stack:
-### Create T3 App Template basic description.
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`. 
 
 1. T3 Stack - https://create.t3.gg/
