@@ -44,15 +44,14 @@ For your convenience we have alias for popular terminal commands in Makefile. 'M
 ## Tech Stack:
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`. 
 
-1. T3 Stack - https://create.t3.gg/
-  - NextJS - https://nextjs.org/
-  - React 18+ - https://reactjs.org/
-  - Prisma - https://www.prisma.io/
-  - tRPC - https://trpc.io/
-  - Tailwind CSS - https://tailwindcss.com/
-2. TypeScript - https://www.typescriptlang.org/
-3. PostgreSQL - https://www.postgresql.org/
-4. Clerk - https://clerk.com/
+1. NextJS - https://nextjs.org/
+2. React 18+ - https://reactjs.org/
+3. Prisma - https://www.prisma.io/
+4. tRPC - https://trpc.io/
+5. Tailwind CSS - https://tailwindcss.com/
+6. TypeScript - https://www.typescriptlang.org/
+7. PostgreSQL - https://www.postgresql.org/
+
 ## Libraries:
 
 - React Query (tRPC version) - https://react-query-v3.tanstack.com/overview
