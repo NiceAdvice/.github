@@ -81,13 +81,13 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 
 ## General info:
 
--1. Used favicon generator https://realfavicongenerator.net/
-0. All files and folders use only lowercase naming. If name consists from 2 words - devide them with "-".  
-1. Use only **PNPM** package manager for this project to avoid potential problems!
-2. Use a linter while coding!
-3. Deployments: [Landing](https://niceadvice.pl/), [app](app.niceadvice.pl), AdminApp - ask @madashindeinai
-4. Use named export everywhere is possible.
-5. next-i18next library is used for translations/text editing by customer. Use this syntax for common cases:
+1. Used favicon generator https://realfavicongenerator.net/
+2. All files and folders use only lowercase naming. If name consists from 2 words - devide them with "-".  
+3. Use only **PNPM** package manager for this project to avoid potential problems!
+4. Use a linter while coding!
+5. Deployments: [Landing](https://niceadvice.pl/), [app](app.niceadvice.pl), AdminApp - ask @madashindeinai
+6. Use named export everywhere is possible.
+7. next-i18next library is used for translations/text editing by customer. Use this syntax for common cases:
 
 ```
 <h3>{t('Description')}</h3>
@@ -109,25 +109,25 @@ in json:
 "DescriptionWithProp": "Lorem {{customProp}}: Lorem ipsum dolor sit amet",
 ```
 
-6. The src/components folder stores simple UI components that can be reused throughout the application.
+8. The src/components folder stores simple UI components that can be reused throughout the application.
 
-7. The src/modules folder stores components that are individual, complex block of code, which is divided to simples subcomponents.
+9. The src/modules folder stores components that are individual, complex block of code, which is divided to simples subcomponents.
 
-8. The src/utils folder stores some repeatedly used functions that are commonly used in the project and inputs validation.
+10. The src/utils folder stores some repeatedly used functions that are commonly used in the project and inputs validation.
 
-9. The src/appConstants folder stores all constants variable used throughout the application.
+11. The src/appConstants folder stores all constants variable used throughout the application.
 
-10. Things related for app but not for partucular page or module can be stored in src/features (not used for now).
+12. Things related for app but not for partucular page or module can be stored in src/features (not used for now).
 
-11. The src/screens folder stores jsx that should be represented on a page.  
+13. The src/screens folder stores jsx that should be represented on a page.  
 
-12. All app text should be styled with custom classes defined in Tailwind (body,body-bold, body-sm etc.).
-13. As Tailwind uses mobile-first approach we are using same in our app.
-14. All text should be stored in json files in public folder.
-15. Project ruler length - `"editor.rulers": [80]`. 
-15. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
-16. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
-17. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
+14. All app text should be styled with custom classes defined in Tailwind (body,body-bold, body-sm etc.).
+15. As Tailwind uses mobile-first approach we are using same in our app.
+16. All text should be stored in json files in public folder.
+17. Project ruler length - `"editor.rulers": [80]`. 
+18. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
+19. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
+20. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
 
 ## Init Fly.io (Postgres) !!!Legacy knowledges. Supabase used for now.
 1. Install fly CLI on your machine: `brew install flyctl`  
