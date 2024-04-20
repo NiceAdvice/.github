@@ -81,6 +81,7 @@ This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3
 
 ## General info:
 
+-1. Used favicon generator https://realfavicongenerator.net/
 0. All files and folders use only lowercase naming. If name consists from 2 words - devide them with "-".  
 1. Use only **PNPM** package manager for this project to avoid potential problems!
 2. Use a linter while coding!
