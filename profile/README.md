@@ -117,17 +117,15 @@ in json:
 
 11. The src/app-constants folder stores all constants variable used throughout the application.
 
-12. Things related for app but not for partucular page or module can be stored in src/features (not used for now).
+12. The src/screens folder stores jsx that should be represented on a page.  
 
-13. The src/screens folder stores jsx that should be represented on a page.  
-
-14. All app text should be styled with custom classes defined in Tailwind (body,body-bold, body-sm etc.).
-15. As Tailwind uses mobile-first approach we are using same in our app.
-16. All text should be stored in json files in public folder.
-17. Project ruler length - `"editor.rulers": [80]`. 
-18. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
-19. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
-20. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
+13. All app text should be styled with custom classes defined in Tailwind (body,body-bold, body-sm etc.).
+14. As Tailwind uses mobile-first approach we are using same in our app.
+15. All text should be stored in json files in public folder.
+16. Project ruler length - `"editor.rulers": [80]`. 
+17. PostgreSQL stored on Supabase. CI/CD process provided by Vercel. 
+18. Prisma require separate space for [shadow DBs](https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database#cloud-hosted-shadow-databases-must-be-created-manually), supabase require to use [different ports](https://supabase.com/docs/guides/integrations/prisma#connection-pooling-with-supabase) for migrations and actual work with db
+19. [Supabase -> Prisma integration guide](https://supabase.com/partners/integrations/prisma)
 
 ## Init Fly.io (Postgres) !!!Legacy knowledges. Supabase used for now.
 1. Install fly CLI on your machine: `brew install flyctl`  
