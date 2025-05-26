@@ -115,7 +115,7 @@ in json:
 
 10. The src/utils folder stores some repeatedly used functions that are commonly used in the project and inputs validation.
 
-11. The src/appConstants folder stores all constants variable used throughout the application.
+11. The src/app-constants folder stores all constants variable used throughout the application.
 
 12. Things related for app but not for partucular page or module can be stored in src/features (not used for now).
 
